@@ -2,10 +2,16 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/" />
+  <remote  name="gh"
+           fetch="https://github.com/" />
+  <remote  name="uber"
+           fetch="https://github.com/UBERROMS" />
+  <remote name="bb"
+           fetch="https://bitbucket.org/" />
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
-           sync-j="4" />
+sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
