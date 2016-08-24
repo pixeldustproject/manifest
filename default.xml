@@ -24,7 +24,7 @@
   <project path="dalvik" name="dalvik" remote="uber" revision="master" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
-  <project path="developers/docs" name="platform/developers/docs" />
+  <project path="developers/docs" name="platform/developers/docs" revision="master" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" revision="master" />
