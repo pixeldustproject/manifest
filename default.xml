@@ -28,9 +28,9 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" revision="master" />
-  <project path="kernel/huawei/angler" name="DespairFactor/angler" remote="gh" revision="maul" />
+  <project path="kernel/huawei/angler" name="DespairFactor/angler" remote="gh" revision="n" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" revision="master" />
-  <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="gh" revision="maul" />
+  <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="gh" revision="n" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="uber" revision="master" />
   <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="rebase" />  
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
