@@ -494,6 +494,8 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/uber" name="vendor" remote="uber" revision="master" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="uber" revision="master" />
+  <project path="vendor/lge" name="vendor_lge" remote="uber" revision="master" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="master" />
 
 </manifest>
