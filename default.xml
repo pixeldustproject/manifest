@@ -45,7 +45,7 @@
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" revision="master" />
   <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="gh" revision="n" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="uber" revision="master" />
-  <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="rebase" />  
+  <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="N" />  
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
