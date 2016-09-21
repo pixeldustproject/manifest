@@ -19,15 +19,18 @@
           sync-c = "true"
           sync-j = "4" />
 
-<project path="build" name="build" remote="uber" >
+  <project path="build" name="build" remote="uber" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
+  
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="uber" />
   <project path="bionic" name="bionic" remote="uber" />
@@ -36,7 +39,6 @@
   <project path="dalvik" name="dalvik" remote="uber" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
-  <project path="developers/docs" name="platform/developers/docs" revision="master" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="pdk-cw-fs,pdk-fs" />
@@ -514,6 +516,6 @@
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
   <project path="vendor/lge" name="vendor_lge" remote="uber" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="master" />
 
 </manifest>
