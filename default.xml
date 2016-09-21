@@ -19,7 +19,7 @@
           sync-c = "true"
           sync-j = "4" />
 
-<project path="build" name="build" remote="uber" revision="master" >
+<project path="build" name="build" remote="uber" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -29,24 +29,24 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="art" remote="uber" revision="master" />
-  <project path="bionic" name="bionic" remote="uber" revision="master" />
+  <project path="art" name="art" remote="uber" />
+  <project path="bionic" name="bionic" remote="uber" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="dalvik" remote="uber" revision="master" />
+  <project path="dalvik" name="dalvik" remote="uber" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" revision="master" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" revision="master" />
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" />
   <project path="kernel/huawei/angler" name="DespairFactor/angler" remote="gh" revision="n" />
-  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" revision="master" />
+  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" />
   <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="gh" revision="n" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="uber" revision="master" />
-  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="uber" revision="master" />
-  <project path="device/moto/shamu" name="device_moto_shamu" remote="uber" revision="master" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="uber" />
+  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="uber" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="uber" />
   <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="N" />  
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" />
@@ -66,7 +66,7 @@
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="BenzoRoms/external_busybox" remote="gh" revision="nougat" />  
+  <project path="external/busybox" name="external_busybox" remote="uber" />  
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/c-ares" name="platform/external/c-ares" />
   <project path="external/caliper" name="platform/external/caliper" />
@@ -96,7 +96,7 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="uber" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -110,7 +110,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
-  <project path="external/flac" name="external_flac" remote="uber" revision="master" />
+  <project path="external/flac" name="external_flac" remote="uber" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
@@ -127,7 +127,7 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="external_guava" remote="uber" revision="master" />
+  <project path="external/guava" name="external_guava" remote="uber" />
   <project path="external/guice" name="platform/external/guice" groups="pdk" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
@@ -184,7 +184,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="external_libpng" remote="uber" revision="master" />
+  <project path="external/libpng" name="external_libpng" remote="uber" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
@@ -238,7 +238,7 @@
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/piex" name="platform/external/piex" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/proguard" name="external_proguard" remote="uber" revision="master" />
+  <project path="external/proguard" name="external_proguard" remote="uber" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" />
@@ -251,7 +251,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="external_skia" remote="uber" revision="master" />
+  <project path="external/skia" name="external_skia" remote="uber" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
@@ -259,7 +259,7 @@
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="external_sqlite" remote="uber" revision="master" />
+  <project path="external/sqlite" name="external_sqlite" remote="uber" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
@@ -292,8 +292,8 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="uber" revision="master" />
-  <project path="frameworks/base" name="frameworks_base" remote="uber" revision="master"  />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="uber" />
+  <project path="frameworks/base" name="frameworks_base" remote="uber" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -301,7 +301,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="frameworks_native" remote="uber" revision="master" />
+  <project path="frameworks/native" name="frameworks_native" remote="uber" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -317,11 +317,11 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="uber" revision="master" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="uber" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="frameworks_support" remote="uber" revision="master" />
+  <project path="frameworks/support" name="frameworks_support" remote="uber" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -349,13 +349,13 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="uber" revision="master" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="uber" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="uber" revision="master" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="uber" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="uber" revision="master" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="uber" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
@@ -367,63 +367,64 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="libcore" name="libcore" remote="uber" revision="master" />
+  <project path="libcore" name="libcore" remote="uber" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="uber" revision="master" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="uber" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="uber" revision="master" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="uber" revision="master" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="uber" revision="master" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="uber" revision="master" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="uber" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="uber" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="uber" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="uber" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/Exchange2" name="packages_apps_Exchange2" remote="uber" revision="master" />
+  <project path="packages/apps/Exchange2" name="packages_apps_Exchange2" remote="uber" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="uber" revision="master" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="uber" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="uber" revision="master" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="uber" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
-  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="uber" revision="master" />
+  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="uber" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="uber" revision="master" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="uber" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="uber" revision="master" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="uber" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="uber" revision="master" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="uber" />
+  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="uber" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
-  <project path="packages/apps/Tag" name="packages_apps_Tag" remote="uber" revision="master" />
+  <project path="packages/apps/Tag" name="packages_apps_Tag" remote="uber" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="uber" revision="master" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="uber" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="uber" revision="master" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="uber" revision="master" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="uber" revision="master" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="uber" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="uber" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="uber" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="uber" revision="master" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="uber" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
@@ -431,8 +432,8 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="uber" revision="master" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="uber" revision="master" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="uber" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="uber" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
@@ -479,8 +480,8 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="system_core" remote="uber" revision="master" />
-  <project path="system/extras" name="system_extras" remote="uber" revision="master" />
+  <project path="system/core" name="system_core" remote="uber" />
+  <project path="system/extras" name="system_extras" remote="uber" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -509,10 +510,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/uber" name="vendor" remote="uber" revision="master" />
-  <project path="vendor/huawei" name="vendor_huawei" remote="uber" revision="master" />
-  <project path="vendor/lge" name="vendor_lge" remote="uber" revision="master" />
-  <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" revision="master" />
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="master" />
+  <project path="vendor/uber" name="vendor" remote="uber" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
+  <project path="vendor/lge" name="vendor_lge" remote="uber" />
+  <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" />
 
 </manifest>
