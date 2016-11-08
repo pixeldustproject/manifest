@@ -15,7 +15,7 @@
           revision = "master"
           fetch = "https://bitbucket.org/" />
   
-  <default revision = "refs/tags/android-7.1.0_r4"
+  <default revision = "refs/tags/android-7.1.0_r7"
           remote = "aosp"
           sync-c = "true"
           sync-j = "4" />
@@ -178,7 +178,7 @@
   <project path="external/libgdx" name="platform/external/libgdx" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" />
-  <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="uber" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
