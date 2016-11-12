@@ -78,9 +78,9 @@
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
+  <project path="external/clang" name="external_clang" groups="pdk" remote="uber" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="uber" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" />
@@ -206,7 +206,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <project path="external/llvm" name="external_llvm" groups="pdk" remote="uber" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
@@ -301,9 +301,9 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="uber" />
   <project path="frameworks/base" name="frameworks_base" remote="uber" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
+  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" groups="pdk" remote="uber" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="uber" />
+  <project path="frameworks/compile/slang" name="frameworks_compile_slang" groups="pdk" remote="uber" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
@@ -481,7 +481,7 @@
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="master" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="system_bt" remote="uber" />
