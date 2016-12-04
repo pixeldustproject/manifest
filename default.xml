@@ -518,7 +518,7 @@
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
   <project path="vendor/lge" name="vendor_lge" remote="uber" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="master" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="n" />
 
 </manifest>
 
