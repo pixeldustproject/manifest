@@ -43,7 +43,9 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/google/marlin" name="device_google_marlin" remote="uber" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" />
+  <project path="kernel/google/marlin" name="mdalexca/marlin" remote="gh" revision="master" />
   <project path="kernel/huawei/angler" name="mdalexca/angler" remote="gh" revision="n" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" />
   <project path="kernel/lge/bullhead" name="mdalexca/bullhead" remote="gh" revision="n" />
@@ -516,6 +518,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/uber" name="vendor" remote="uber" />
+  <project path="vendor/google" name="vendor_google" remote="uber" />
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
   <project path="vendor/lge" name="vendor_lge" remote="uber" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
