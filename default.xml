@@ -15,7 +15,7 @@
           revision = "master"
           fetch = "https://bitbucket.org/" />
   
-  <default revision = "refs/tags/android-7.1.1_r4"
+  <default revision = "refs/tags/android-7.1.1_r13"
           remote = "aosp"
           sync-c = "true"
           sync-j = "4" />
