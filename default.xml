@@ -516,7 +516,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/uber" name="vendor" remote="uber" />
-  <project path="vendor/google" name="vendor_google" remote="uber" />
+  <project path="vendor/google_devices" name="vendor_google_devices" remote="uber" />
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
   <project path="vendor/lge" name="vendor_lge" remote="uber" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
