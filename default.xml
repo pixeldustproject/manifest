@@ -15,6 +15,9 @@
           revision = "master"
           fetch = "https://bitbucket.org/" />
   
+  <remote name="gitlab"
+           fetch="https://gitlab.com/PureNexus/" /> 
+  
   <default revision = "refs/tags/android-7.1.1_r13"
           remote = "aosp"
           sync-c = "true"
@@ -520,6 +523,7 @@
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
   <project path="vendor/lge" name="vendor_lge" remote="uber" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
+  <project path="vendor/pixelgapps" name="android_vendor_pixelgapps" remote="gitlab" revision="android-7.1" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="n" />
 
 </manifest>
