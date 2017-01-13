@@ -48,14 +48,14 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/marlin" name="device_google_marlin" remote="uber" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" />
-  <project path="kernel/google/marlin" name="mdalexca/marlin" remote="gh" revision="master" />
-  <project path="kernel/huawei/angler" name="mdalexca/angler" remote="gh" revision="n" />
+  <project path="kernel/google/marlin" name="DespairFactor/marlin" remote="gh" revision="master" />
+  <project path="kernel/huawei/angler" name="DespairFactor/angler" remote="gh" revision="n" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" />
-  <project path="kernel/lge/bullhead" name="mdalexca/bullhead" remote="gh" revision="n" />
+  <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="gh" revision="n" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="uber" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="uber" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="uber" />
-  <project path="kernel/moto/shamu" name="mdalexca/N6" remote="gh" revision="N" />  
+  <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="N" />  
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
@@ -461,8 +461,8 @@
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="mdalexca/aarch64-linux-android-6.x" remote="bb" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="mdalexca/arm-eabi-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="DespairFactor/aarch64-linux-android-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="DespairFactor/arm-eabi-6.x" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
