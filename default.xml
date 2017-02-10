@@ -18,7 +18,7 @@
   <remote name="opengapps" 
           fetch="https://github.com/opengapps/"  />
   
-  <default revision = "refs/tags/android-7.1.1_r13"
+  <default revision = "refs/tags/android-7.1.1_r22"
           remote = "aosp"
           sync-c = "true"
           sync-j = "4" />
@@ -415,7 +415,6 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="uber" />
-  <project path="packages/apps/SnapdragonCamera" name="packages_apps_Snap" remote="uber" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
