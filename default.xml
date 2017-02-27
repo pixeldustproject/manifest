@@ -526,7 +526,7 @@
   <project path="vendor/pixelgapps" name="uberroms/android_vendor_pixelgapps" remote="bb" revision="android-7.1" />
   
   <!-- Team Substratum Masquerade (OMS) -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="master" />
+  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="gh" revision="n-rootless" />
 
   <!-- Open GAPPS -->
   <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
