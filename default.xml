@@ -523,7 +523,7 @@
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
   <project path="vendor/lge" name="vendor_lge" remote="uber" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
-  <project path="vendor/pixelgapps" name="uberroms/android_vendor_pixelgapps" remote="bb" revision="android-7.1" />
+  <project path="vendor/pixelgapps" name="uberroms/android_vendor_pixelgapps" remote="bb" revision="master" />
   
   <!-- Team Substratum Masquerade (OMS) -->
   <project path="packages/apps/masquerade" name="substratum/masquerade" remote="gh" revision="n-rootless" />
