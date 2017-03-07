@@ -525,7 +525,7 @@
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
   
   <!-- Team Substratum Masquerade (OMS) -->
-  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="gh" revision="n-rootless" />
+  <project path="packages/apps/interfacer" name="substratum/interfacer" remote="gh" revision="n-rootless" />
 
   <!-- Open GAPPS -->
   <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
