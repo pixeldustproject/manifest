@@ -46,6 +46,7 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/google/marlin" name="device_google_marlin" remote="uber" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" />
   <project path="kernel/google/marlin" name="DespairFactor/marlin" remote="gh" revision="master" />
