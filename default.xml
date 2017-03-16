@@ -50,7 +50,7 @@
   <project path="device/google/marlin" name="device_google_marlin" remote="uber" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" />
   <project path="kernel/google/marlin" name="DespairFactor/marlin" remote="gh" revision="master" />
-  <project path="kernel/huawei/angler" name="DespairFactor/angler" remote="gh" revision="n" />
+  <project path="kernel/huawei/angler" name="chadouming/faster-angler" remote="gh" revision="master" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" />
   <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="gh" revision="n" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="uber" />
