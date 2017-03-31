@@ -545,7 +545,7 @@
   <!-- UBERROMS -->
   <include name="manifests/uber.xml"/>
 
-  <!-- Open GAPPS -->
-  <include name="manifests/gapps.xml"/>
+  <!-- Pixel Dust -->
+  <include name="manifests/pixeldust.xml"/>
 
 </manifest>

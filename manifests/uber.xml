@@ -36,20 +36,12 @@
   <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
 
-  <!-- Build repositories -->
-  <remove-project name="platform/build" />
-  <project path="build" name="build" remote="uber" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
   <!-- Devices -->
-  <project path="device/google/marlin" name="device_google_marlin" remote="uber" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="uber" />
 
   <!-- Kernels -->
-  <project path="kernel/google/marlin" name="DespairFactor/marlin" remote="gh" revision="rebase-exp" />
   <project path="kernel/huawei/angler" name="chadouming/faster-angler" remote="gh" revision="master" />
   <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="gh" revision="n" />
   <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="N" />
@@ -78,12 +70,6 @@
   <project path="external/zlib" name="external_zlib" groups="pdk" remote="uber" />
 
   <!-- Frameworks -->
-  <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="uber" />
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="frameworks_base" remote="uber" />
-  <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="frameworks_native" remote="uber" />
   <remove-project name="platform/frameworks/rs" />
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="uber" />
   <remove-project name="platform/frameworks/support" />
@@ -94,8 +80,6 @@
   <project path="libcore" name="libcore" remote="uber" />
 
   <!-- Apps -->
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="uber" />
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="uber" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
@@ -107,11 +91,8 @@
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="uber" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" groups="pdk-fs" remote="uber" />
-  <project path="packages/apps/OmniGears" name="packages_apps_OmniGears" remote="uber" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="uber" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="uber" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="uber" />
 
@@ -119,8 +100,6 @@
   <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
 
   <!-- System -->
-  <remove-project name="platform/system/core" />
-  <project path="system/core" name="system_core" remote="uber" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="system_extras" remote="uber" />
   <remove-project name="platform/system/sepolicy" />
@@ -129,8 +108,6 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="uber" />
 
   <!-- Vendors -->
-  <project path="vendor/uber" name="vendor" remote="uber" />
-  <project path="vendor/google_devices" name="vendor_google_devices" remote="uber" />
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
   <project path="vendor/lge" name="vendor_lge" remote="uber" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
