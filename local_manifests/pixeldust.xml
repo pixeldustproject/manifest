@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="gitlab"
-           fetch="https://gitlab.com/PureNexus/" /> 
+           fetch="https://gitlab.com/spezi77/" /> 
 
   <remote name="pd"
            fetch="https://github.com/pixeldustproject" />
@@ -32,7 +32,7 @@
   <!-- Vendor Repos -->
   <project path="vendor/google_devices" name="vendor_google_devices" remote="pd" revision="n" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd" revision="n" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="gitlab" revision="n-mr1" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="gitlab" revision="n" />
 
   <!-- Device specific Repos -->
   <project path="device/google/marlin" name="android_device_google_marlin" groups="device,marlin" remote="pd" revision="n" />
