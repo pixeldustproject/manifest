@@ -7,8 +7,8 @@
   <remote name="pd"
            fetch="https://github.com/pixeldustproject" />
 
-  <remote name="pure"
-	   fetch="https://github.com/PureNexusProject" />
+  <remote name="omnirom"
+	   fetch="https://github.com/omnirom" />
 
   <!-- Removed Repos -->
   <remove-project name="aosp_build" />
@@ -52,7 +52,7 @@
   <!-- Extra Apps -->
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="pd" revision="n" />
   <project path="external/google" name="android_external_google" remote="pd" revision="n2" />
-  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="pure" revision="n-mr1" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom" revision="android-7.1" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="pd" revision="n" />
 
 </manifest>
