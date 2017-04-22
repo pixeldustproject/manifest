@@ -28,6 +28,7 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="packages_apps_Bluetooth" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/Launcher3" />
 
   <!-- Vendor Repos -->
   <project path="vendor/google_devices" name="vendor_google_devices" remote="pd" revision="n" />
