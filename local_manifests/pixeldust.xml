@@ -53,4 +53,7 @@
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom" revision="android-7.1" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="pd" revision="n" />
 
+  <!-- AOSP -->
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
+
 </manifest>
