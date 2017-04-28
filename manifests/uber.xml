@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name = "uber"
+          revision = "master"
+          fetch = "https://github.com/UBERROMS" />
+
+  <remote name = "bb"
+          revision = "master"
+          fetch = "https://bitbucket.org/" />
+
+  <remote name = "gh"
+          fetch = "https://github.com/" />
+
+  <!-- Newer Clang Support -->
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="uber" />
+  <remove-project name="platform/external/clang" />
+  <project path="external/clang" name="external_clang" groups="pdk" remote="uber" />
+  <remove-project name="platform/external/compiler-rt" />
+  <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="uber" />
+  <remove-project name="platform/external/llvm" />
+  <project path="external/llvm" name="external_llvm" groups="pdk" remote="uber" />
+  <remove-project name="platform/frameworks/compile/libbcc" />
+  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" groups="pdk" remote="uber" />
+  <remove-project name="platform/frameworks/compile/mclinker" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="uber" />
+  <remove-project name="platform/frameworks/compile/slang" />
+  <project path="frameworks/compile/slang" name="frameworks_compile_slang" groups="pdk" remote="uber" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <project path="prebuilts/sdk" name="prebuilts_sdk" groups="pdk" remote="uber" />
+
+  <!-- UBER Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
+
+  <!-- Build repositories -->
+  <remove-project name="platform/build" />
+  <project path="build" name="build" remote="uber" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <!-- Devices -->
+  <project path="device/google/marlin" name="device_google_marlin" remote="uber" />
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" />
+  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="uber" />
+
+  <!-- Kernels -->
+  <project path="kernel/google/marlin" name="DespairFactor/marlin" remote="gh" revision="rebase-exp" />
+  <project path="kernel/huawei/angler" name="chadouming/faster-angler" remote="gh" revision="master" />
+  <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="gh" revision="n" />
+  <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="N" />
+
+  <!-- UBERROMS Project -->
+  <!-- Base Project -->
+  <remove-project name="platform/art" />
+  <project path="art" name="art" remote="uber" />
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="bionic" remote="uber" />
+
+  <!-- External -->
+  <remove-project name="platform/external/f2fs-tools" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="uber" />
+  <remove-project name="platform/external/jemalloc" />
+  <project path="external/jemalloc" name="external_jemalloc" groups="pdk" remote="uber" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="uber" />
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="external_libpng" remote="uber" />
+  <remove-project name="platform/external/skia" />
+  <project path="external/skia" name="external_skia" remote="uber" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="external_sqlite" remote="uber" />
+  <remove-project name="platform/external/zlib" />
+  <project path="external/zlib" name="external_zlib" groups="pdk" remote="uber" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="uber" />
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="frameworks_base" remote="uber" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="frameworks_native" remote="uber" />
+  <remove-project name="platform/frameworks/rs" />
+  <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="uber" />
+  <remove-project name="platform/frameworks/support" />
+  <project path="frameworks/support" name="frameworks_support" groups="pdk" remote="uber" />
+
+  <!-- Native -->
+  <remove-project name="platform/libcore" />
+  <project path="libcore" name="libcore" remote="uber" />
+
+  <!-- Apps -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="uber" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="uber" />
+  <remove-project name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="uber" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="uber" />
+  <project path="packages/apps/Exchange2" name="packages_apps_Exchange2" remote="uber" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="uber" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" groups="pdk-fs" remote="uber" />
+  <project path="packages/apps/OmniGears" name="packages_apps_OmniGears" remote="uber" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="uber" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="uber" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="uber" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
+
+  <!-- System -->
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="system_core" remote="uber" />
+  <remove-project name="platform/system/extras" />
+  <project path="system/extras" name="system_extras" remote="uber" />
+  <remove-project name="platform/system/sepolicy" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="uber"/>
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="uber" />
+
+  <!-- Vendors -->
+  <project path="vendor/uber" name="vendor" remote="uber" />
+  <project path="vendor/google_devices" name="vendor_google_devices" remote="uber" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
+  <project path="vendor/lge" name="vendor_lge" remote="uber" />
+  <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
+
+  <!-- Team Substratum Masquerade (OMS) -->
+  <project path="packages/apps/interfacer" name="substratum/interfacer" remote="gh" revision="n-rootless" />
+
+  <!-- Obsolete Packages -->
+  <remove-project name="device/generic/arm64"/>
+  <remove-project name="device/generic/armv7-a-neon"/>
+  <remove-project name="device/generic/common"/>
+  <remove-project name="device/generic/goldfish"/>
+  <remove-project name="device/generic/mini-emulator-arm64"/>
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
+  <remove-project name="device/generic/mini-emulator-x86"/>
+  <remove-project name="device/generic/mini-emulator-x86_64"/>
+  <remove-project name="device/generic/qemu"/>
+  <remove-project name="device/generic/x86"/>
+  <remove-project name="device/generic/goldfish-opengl"/>
+  <remove-project name="platform/packages/apps/Launcher2"/>  
+
+</manifest>
