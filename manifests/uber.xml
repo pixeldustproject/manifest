@@ -50,8 +50,6 @@
   <!-- Base Project -->
   <remove-project name="platform/art" />
   <project path="art" name="art" remote="uber" />
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="bionic" remote="uber" />
 
   <!-- External -->
   <remove-project name="platform/external/f2fs-tools" />

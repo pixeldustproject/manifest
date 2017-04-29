@@ -5,6 +5,7 @@
            fetch="https://github.com/pixeldustproject" />
 
   <!-- Removed Repos -->
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/frameworks/av" />
@@ -17,6 +18,9 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/external/flac" />
+
+  <!-- Bionic -->
+  <project path="bionic" name="android_bionic" remote="pd" revision="n" />
 
   <!-- Build -->
   <project path="build" name="android_build" groups="pdk,tradefed" remote="pd" revision="n" >
