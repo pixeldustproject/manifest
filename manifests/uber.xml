@@ -111,7 +111,7 @@
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
 
   <!-- Team Substratum Masquerade (OMS) -->
-  <project path="packages/apps/interfacer" name="substratum/interfacer" remote="gh" revision="n-rootless" />
+  <project path="packages/services/interfacer" name="substratum/interfacer" remote="gh" revision="n-rootless" />
 
   <!-- Obsolete Packages -->
   <remove-project name="device/generic/arm64"/>
