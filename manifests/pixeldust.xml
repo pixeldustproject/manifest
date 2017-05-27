@@ -3,6 +3,8 @@
 
   <remote name="pd"
            fetch="https://github.com/pixeldustproject" />
+  <remote name="pl"
+           fetch="https://gitlab.com/spezi77/" />
 
   <!-- Removed Repos -->
   <remove-project name="platform/bionic" />
@@ -61,5 +63,6 @@
   <!-- Vendors -->
   <project path="vendor/google_devices" name="vendor_google_devices" remote="pd" revision="n" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd" revision="n" />
+  <project path="vendor/pixel_prebuilts" name="pixel_prebuilts" remote="pl" revision="n" />
 
 </manifest>
