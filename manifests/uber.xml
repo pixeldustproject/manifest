@@ -72,10 +72,6 @@
   <remove-project name="platform/frameworks/support" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk" remote="uber" />
 
-  <!-- Native -->
-  <remove-project name="platform/libcore" />
-  <project path="libcore" name="libcore" remote="uber" />
-
   <!-- Apps -->
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="uber" />

@@ -22,6 +22,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/libcore" />
 
   <!-- UBER Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="arm-linux-androideabi-6.x" remote="pl" />
@@ -68,5 +69,8 @@
   <project path="vendor/google_devices" name="vendor_google_devices" remote="pd" revision="n" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd" revision="n" />
   <project path="vendor/pixel_prebuilts" name="pixel_prebuilts" remote="pl" />
+
+  <!-- Native -->
+  <project path="libcore" name="android_libcore" remote="pd" revision="n" />
 
 </manifest>
