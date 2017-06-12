@@ -27,8 +27,6 @@
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="uber" />
   <remove-project name="platform/frameworks/compile/slang" />
   <project path="frameworks/compile/slang" name="frameworks_compile_slang" groups="pdk" remote="uber" />
-  <remove-project name="platform/prebuilts/sdk" />
-  <project path="prebuilts/sdk" name="prebuilts_sdk" groups="pdk" remote="uber" />
 
   <!-- UBER Toolchains -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
