@@ -26,7 +26,7 @@
   <remove-project name="platform/prebuilts/sdk" />
 
   <!-- Newer Clang Support -->
-  <project path="prebuilts/sdk" name="android_prebuilts_sdk" groups="pdk" remote="pd"  revision="n" />
+  <project path="prebuilts/sdk" name="android_prebuilts_sdk" groups="pdk" remote="pl" />
 
   <!-- UBER Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="arm-linux-androideabi-6.x" remote="pl" />
