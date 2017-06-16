@@ -24,6 +24,10 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/prebuilts/sdk" />
+  <remove-project name="platform/art" />
+
+  <!-- Base Project -->
+  <project path="art" name="android_art" remote="pd" revision="n" />
 
   <!-- Newer Clang Support -->
   <project path="prebuilts/sdk" name="android_prebuilts_sdk" groups="pdk" remote="pl" />

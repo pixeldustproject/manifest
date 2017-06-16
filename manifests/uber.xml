@@ -44,9 +44,6 @@
   <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="N" />
 
   <!-- UBERROMS Project -->
-  <!-- Base Project -->
-  <remove-project name="platform/art" />
-  <project path="art" name="art" remote="uber" />
 
   <!-- External -->
   <remove-project name="platform/external/f2fs-tools" />
