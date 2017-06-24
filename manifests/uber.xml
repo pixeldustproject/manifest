@@ -34,12 +34,10 @@
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
 
   <!-- Devices -->
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="uber" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="uber" />
 
   <!-- Kernels -->
-  <project path="kernel/huawei/angler" name="chadouming/faster-angler" remote="gh" revision="master" />
   <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="gh" revision="n" />
   <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="N" />
 
@@ -96,7 +94,6 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="uber" />
 
   <!-- Vendors -->
-  <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
   <project path="vendor/lge" name="vendor_lge" remote="uber" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
 
