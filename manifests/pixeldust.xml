@@ -27,6 +27,7 @@
   <remove-project name="platform/libcore" />
   <remove-project name="platform/prebuilts/sdk" />
   <remove-project name="platform/art" />
+  <remove-project name="platform/external/jemalloc" />
 
   <!-- Base Project -->
   <project path="art" name="android_art" remote="pd" revision="n" />
@@ -53,6 +54,7 @@
 
   <!-- External -->
   <project path="external/flac" name="android_external_flac" remote="pd" revision="n" />
+  <project path="external/jemalloc" name="android_external_jemalloc" groups="pdk" remote="pd" revision="n" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pd" revision="n" />
