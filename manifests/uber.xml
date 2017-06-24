@@ -29,7 +29,6 @@
   <project path="frameworks/compile/slang" name="frameworks_compile_slang" groups="pdk" remote="uber" />
 
   <!-- UBER Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
 
