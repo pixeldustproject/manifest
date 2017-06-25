@@ -42,6 +42,7 @@
   <!-- Toolchains -->
   <project groups="pdk,linux,arm" name="BenzoRoms/aarch64-linux-android-6.3" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" remote="gh" revision="linaro" />
   <project groups="pdk,linux,arm" name="BenzoRoms/arm-linux-androideabi-6.3" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" remote="gh" revision="linaro" />
+  <project groups="pdk,linux,arm" name="aarch64-linux-android-8.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.x" remote="pl" />
 
   <!-- Bionic -->
   <project path="bionic" name="android_bionic" remote="pd" revision="n" />
@@ -53,7 +54,7 @@
 
   <!-- Device specific Repos -->
   <project path="device/google/marlin" name="android_device_google_marlin" groups="device,marlin" remote="pd" revision="n" />
-  <project path="kernel/google/marlin" name="android_kernel_google_marlin" remote="pd" revision="rebase-exp" />
+  <project path="kernel/google/marlin" name="android_kernel_google_pixel" remote="pd" revision="n-gcc8" />
   <project path="device/huawei/angler" name="android_device_huawei_angler" remote="pd" revision="n" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="pd" revision="n" />
 
