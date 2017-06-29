@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Patch for legacy Recovery -->
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="pd" revision="n-legacy" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <!-- Device specific Repos -->
+
+  <!-- LG Nexus 4 -->
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="pd" revision="n" />
+  <project path="kernel/lge/mako" name="Sudokamikaze/SINAI-N4" remote="gh" revision="n-7.1" />
+  <project path="vendor/lge/mako" name="android_vendor_lge_mako" remote="pd" revision="n" />
+
+</manifest>

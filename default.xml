@@ -547,5 +547,7 @@
 
   <!-- Pixel Dust -->
   <include name="manifests/pixeldust.xml"/>
+  <!-- Devices main -->
+  <include name="manifests/devices_main.xml"/>
 
 </manifest>

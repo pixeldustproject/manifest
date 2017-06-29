@@ -52,12 +52,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <!-- Device specific Repos -->
-  <project path="device/google/marlin" name="android_device_google_marlin" groups="device,marlin" remote="pd" revision="n" />
-  <project path="kernel/google/marlin" name="android_kernel_google_pixel" remote="pd" revision="n-gcc8" />
-  <project path="device/huawei/angler" name="android_device_huawei_angler" remote="pd" revision="n" />
-  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="pd" revision="n" />
-
   <!-- External -->
   <project path="external/flac" name="android_external_flac" remote="pd" revision="n" />
   <project path="external/jemalloc" name="android_external_jemalloc" groups="pdk" remote="pd" revision="n" />
@@ -86,10 +80,8 @@
   <project path="system/core" name="android_system_core" remote="pd" revision="n" />
 
   <!-- Vendors -->
-  <project path="vendor/google_devices" name="vendor_google_devices" remote="pd" revision="n" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd" revision="n" />
   <project path="vendor/pixel_prebuilts" name="pixel_prebuilts" remote="pl" />
-  <project path="vendor/huawei" name="android_vendor_huawei" remote="pd" revision="n" />
 
   <!-- Native -->
   <project path="libcore" name="android_libcore" remote="pd" revision="n" />

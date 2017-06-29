@@ -32,14 +32,6 @@
   <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
 
-  <!-- Devices -->
-  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="uber" />
-  <project path="device/moto/shamu" name="device_moto_shamu" remote="uber" />
-
-  <!-- Kernels -->
-  <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="gh" revision="n" />
-  <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="N" />
-
   <!-- UBERROMS Project -->
 
   <!-- External -->
@@ -92,10 +84,6 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/display" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk" remote="uber" />
-
-  <!-- Vendors -->
-  <project path="vendor/lge" name="vendor_lge" remote="uber" />
-  <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
 
   <!-- Team Substratum Masquerade (OMS) -->
   <project path="packages/services/interfacer" name="substratum/interfacer" remote="gh" revision="n-rootless" />

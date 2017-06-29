@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device specific Repos -->
+
+  <!-- Google Pixel / Pixel XL -->
+  <project path="device/google/marlin" name="android_device_google_marlin" groups="device,marlin" remote="pd" revision="n" />
+  <project path="kernel/google/marlin" name="android_kernel_google_pixel" remote="pd" revision="gcc8-stable" />
+  <project path="vendor/google_devices" name="vendor_google_devices" remote="pd" revision="n" />
+
+  <!-- Huawai Nexus 6P -->
+  <project path="device/huawei/angler" name="android_device_huawei_angler" remote="pd" revision="n" />
+  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="pd" revision="n" />
+  <project path="vendor/huawei" name="android_vendor_huawei" remote="pd" revision="n" />
+
+  <!-- LG Nexus 5X -->
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="pd" revision="n" />
+  <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" remote="pd" revision="n" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="pd" revision="n" />
+
+  <!-- Motorola Nexus 6 -->
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="uber" />
+  <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="N" />
+  <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
+
+</manifest>
