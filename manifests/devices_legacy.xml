@@ -13,4 +13,7 @@
   <project path="kernel/lge/mako" name="Sudokamikaze/SINAI-N4" remote="gh" revision="n-7.1" />
   <project path="vendor/lge/mako" name="android_vendor_lge_mako" remote="pd" revision="n" />
 
+  <!-- Toolchains -->
+  <project name="QUVNTNM-TC/TC" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.3" remote="gh" revision="Q6.3-a15-neon" />
+
 </manifest>
