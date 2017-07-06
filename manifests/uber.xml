@@ -67,8 +67,6 @@
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" groups="pdk-fs" remote="uber" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="uber" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="uber" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
@@ -76,8 +74,6 @@
   <!-- System -->
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="system_extras" remote="uber" />
-  <remove-project name="platform/system/sepolicy" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="uber"/>
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="uber" />
 
