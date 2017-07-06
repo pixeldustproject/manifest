@@ -30,7 +30,6 @@
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/prebuilts/ninja/linux-x86" />
-  <remove-project name="platform/packages/apps/Launcher3"/> 
 
   <!-- Base Project -->
   <project path="art" name="android_art" remote="pd" revision="n" />
