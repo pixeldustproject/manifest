@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Patch for legacy Recovery -->
+  <remove-project name="android_build" />
   <project path="build" name="android_build" groups="pdk,tradefed" remote="pd" revision="n-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
