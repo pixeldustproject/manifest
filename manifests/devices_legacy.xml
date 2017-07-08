@@ -8,6 +8,8 @@
   </project>
 
   <!-- Device specific Repos -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="gh" revision="cm-14.1" groups="qcom,qcom_audio,pdk" />
 
   <!-- LG Nexus 4 -->
   <project path="device/lge/mako" name="android_device_lge_mako" remote="pd" revision="n" />
