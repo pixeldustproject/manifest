@@ -33,7 +33,6 @@
   <remove-project name="platform/prebuilts/ninja/linux-x86" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/apps/Contacts" />
-  <remove-project name="platform/packages/apps/MusicFX" />
 
   <!-- Base Project -->
   <project path="art" name="android_art" remote="pd" revision="n" />
