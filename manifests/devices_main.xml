@@ -5,7 +5,7 @@
 
   <!-- Google Pixel / Pixel XL -->
   <project path="device/google/marlin" name="android_device_google_marlin" groups="device,marlin" remote="pd" revision="n" />
-  <project path="kernel/google/marlin" name="android_kernel_google_pixel" remote="pd" revision="upstream" />
+  <project path="kernel/google/marlin" name="android_kernel_google_pixel" remote="pd" revision="n" />
   <project path="vendor/google_devices" name="vendor_google_devices" remote="pd" revision="n" />
 
   <!-- Huawai Nexus 6P -->
