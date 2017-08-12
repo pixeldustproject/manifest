@@ -42,11 +42,6 @@
   <project path="prebuilts/ninja/linux-x86" name="mydongistiny/ninja" groups="linux,pdk,tradefed" remote="gh" revision="master" />
   <project path="build/kati" name="BenzoRoms/build_kati" groups="pdk,tradefed" remote="gh" revision="nonetwo" />
 
-  <!-- Toolchains -->
-  <project groups="pdk,linux,arm" name="BenzoRoms/aarch64-linux-android-6.3" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" remote="gh" revision="linaro" />
-  <project groups="pdk,linux,arm" name="BenzoRoms/arm-linux-androideabi-6.3" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" remote="gh" revision="linaro" />
-  <project name="QUVNTNM-TC/TC" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.x" remote="gh" revision="Q8.0-kryo-aarch" />
-
   <!-- Bionic -->
   <project path="bionic" name="android_bionic" remote="pd" revision="n" />
 

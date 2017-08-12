@@ -23,4 +23,8 @@
   <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="N" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
 
+  <!-- Toolchains -->
+  <project name="QUVNTNM-TC/TC" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.x" remote="gh" revision="Q8.0-kryo-aarch" />
+  <project groups="pdk,linux,arm" name="QUVNTNM-TC/TC-firmware" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" remote="gh" revision="arch-arm-6.x" />
+
 </manifest>
