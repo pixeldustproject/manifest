@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Patch for legacy Recovery -->
+  <!-- Remove device specific repos -->
+  <remove-project name="QUVNTNM-TC/TC-firmware" />
   <remove-project name="android_build" />
+  <remove-project name="platform/hardware/qcom/audio" />
+
+  <!-- Patch for legacy Recovery -->
   <project path="build" name="android_build" groups="pdk,tradefed" remote="pd" revision="n-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <!-- Device specific Repos -->
-  <remove-project name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/audio" name="DirtyUnicorns/android_hardware_qcom_audio" remote="gh" revision="n7x" groups="qcom,qcom_audio,pdk" />
 
   <!-- LG Nexus 4 -->
