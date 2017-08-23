@@ -20,7 +20,7 @@
   <project path="vendor/lge/mako" name="android_vendor_lge_mako" remote="pd" revision="n" />
 
   <!-- Toolchains -->
-  <project name="QUVNTNM-TC/TC" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.3" remote="gh" revision="Q6.3-a15-neon" />
+  <project name="QUVNTNM-TC/TC" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.4" remote="gh" revision="Q6.4-a15-neon" />
   <project groups="pdk,linux,arm" name="BenzoRoms/arm-linux-androideabi-6.3" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" remote="gh" revision="linaro" />
 
 </manifest>
