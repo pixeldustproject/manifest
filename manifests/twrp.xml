@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="teamwin" fetch="https://github.com/TeamWin/" />
+
+  <remove-project name="android_device_google_marlin" />
+  <remove-project name="bootable_recovery" />
+
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="gh" revision="android-7.1" />
+  <project path="external/busybox" name="omnirom/android_external_busybox" remote="gh" revision="android-7.1" />
+
+  <project path="device/google/marlin/" name="android_device_google_marlin" remote="teamwin" revision="android-7.1" groups="device,marlin,sailfish" />
+  <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
+
+</manifest>
