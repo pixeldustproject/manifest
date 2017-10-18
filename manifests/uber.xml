@@ -47,8 +47,6 @@
   <project path="external/libpng" name="external_libpng" remote="uber" />
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="external_skia" remote="uber" />
-  <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="external_sqlite" remote="uber" />
   <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
