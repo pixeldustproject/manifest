@@ -42,7 +42,6 @@
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/frameworks/minikin" />
-  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Base Project -->
@@ -69,7 +68,6 @@
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="pd" revision="n" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="pd" revision="n" />
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="pd" revision="n" />
-  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="pd" revision="master" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="pd" revision="n" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="pd" revision="n" />
 
