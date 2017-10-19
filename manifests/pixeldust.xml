@@ -43,6 +43,7 @@
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Base Project -->
   <project path="art" name="android_art" remote="pd" revision="n" />
@@ -64,18 +65,19 @@
   <project path="external/flac" name="android_external_flac" remote="pd" revision="n" />
   <project path="external/jemalloc" name="android_external_jemalloc" groups="pdk" remote="pd" revision="n" />
   <project path="external/skia" name="android_external_skia" groups="pdk" remote="pd" revision="n" />
-  <project path="external/libavc" name="android_external_libavc" groups="pdk" remote="pd" revision="nougat-mr2.3-release" />
-  <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="pd" revision="nougat-mr2.3-release" />
-  <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="pd" revision="nougat-mr2.3-release" />
-  <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="pd" revision="nougat-mr2.3-release" />
+  <project path="external/libavc" name="android_external_libavc" groups="pdk" remote="pd" revision="n" />
+  <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="pd" revision="n" />
+  <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="pd" revision="n" />
+  <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="pd" revision="n" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="pd" revision="master" />
-  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="pd" revision="nougat-mr2.3-release" />
-  
+  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="pd" revision="n" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="pd" revision="n" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pd" revision="n" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pd" revision="n" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pd" revision="n" />
-  <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="pd" revision="nougat-mr2.3-release" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="pd" revision="n" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="pd" revision="n" />
