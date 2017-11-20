@@ -43,6 +43,10 @@
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/libmpeg2" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Base Project -->
   <project path="art" name="android_art" remote="pd" revision="n" />
@@ -70,12 +74,14 @@
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="pd" revision="n" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="pd" revision="n" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="pd" revision="n" />
+  <project path="external/libmpeg2" name="android_external_libmpeg2" groups="pdk" remote="pd" revision="n" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pd" revision="n" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pd" revision="n" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pd" revision="n" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="pd" revision="n" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="pd" revision="n" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="pd" revision="n" />
@@ -101,6 +107,8 @@
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="pd" revision="n" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pd" revision="n" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="pd" revision="n" />
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="pd" revision="n" />
 
   <!-- Vendors -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd" revision="n" />
