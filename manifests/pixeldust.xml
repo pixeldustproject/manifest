@@ -47,6 +47,7 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/external/chromium-webview" />
 
   <!-- Base Project -->
   <project path="art" name="android_art" remote="pd" revision="n" />
@@ -75,6 +76,7 @@
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="pd" revision="n" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="pd" revision="n" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" groups="pdk" remote="pd" revision="n" />
+  <project path="external/chromium-webview" name="android-security/android_external_chromium-webview" remote="gh" revision="aosp-7.1" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pd" revision="n" />
